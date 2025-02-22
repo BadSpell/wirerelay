@@ -71,7 +71,7 @@ func runServer(listenAddr string, tokenB64 string) {
 
 		if len(data) == 32 && bytes.Equal(data, regToken) {
 			relayClientAddr = remoteAddr
-			fmt.Printf("Registered relay client: %s", remoteAddr.String())
+			fmt.Println("Registered relay client: %s", remoteAddr.String())
 
 			_, err = conn.WriteToUDP(data, remoteAddr)
 		}
