@@ -29,7 +29,7 @@ Registration token (base64): Pa63OJB0uVMlDMjjajRLI75EwQYegPwYliIANVJTchU=
 Relay server listening on 0.0.0.0:21804
 Registered relay client: 23.192.228.80:53311
 ```
-The server displays a Base64 registration token, used for client mode.
+The server displays a Base64 registration token, used for client mode.  
 If the `-token` option is omitted, a random token is generated.
 
 
